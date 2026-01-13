@@ -324,31 +324,15 @@ footer {
 
 /* RESPONSIVE TABLET & MOBILE */
 @media (max-width: 768px) {
-  .nav-links {
-    display: none; /* Sembunyikan awal */
-    flex-direction: column;
-    width: 100%;
-    background-color: #020c1b; /* Warna navy sesuai footer Anda */
-    position: absolute;
-    top: 60px; /* Sesuaikan dengan tinggi navbar Anda */
-    left: 0;
-    padding: 20px 0;
-    text-align: center;
-    border-bottom: 1px solid var(--navy-light);
-  }
-
-  /* Kode ini yang akan dipicu oleh JavaScript */
-  .nav-links.active {
-    display: flex; 
-  }
-
-  .menu-toggle {
-    display: block; /* Pastikan garis 3 muncul di HP */
-    cursor: pointer;
-  }
-
-  .hero-content h2 {
-    font-size: 2.5rem;
-  }
+    .nav-links {
+        display: none; /* Bisa ditambahkan JS nanti untuk toggle menu */
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
 }
-
