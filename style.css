@@ -330,7 +330,7 @@ footer {
     width: 100%;
     background-color: #020c1b; /* Warna navy sesuai footer Anda */
     position: absolute;
-    top: 70px; /* Sesuaikan dengan tinggi navbar Anda */
+    top: 60px; /* Sesuaikan dengan tinggi navbar Anda */
     left: 0;
     padding: 20px 0;
     text-align: center;
@@ -351,3 +351,4 @@ footer {
     font-size: 2.5rem;
   }
 }
+
